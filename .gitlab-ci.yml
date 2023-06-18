@@ -4,19 +4,16 @@ stages:
 build-frontend:
   stage: build
   image: node:16.9.0
-  paths:
-    - Recruitment-FE/node_modules
   before_script:
     - cd Recruitment-FE/
     - npm ci
   script:
     - npm run build
 build-backend:
+  stage: build
   image: microsoft/dotnet:latest
   before_script:
     - cd Recruitment-Web-API/
     - dotnet restore
-  build:
-    stage: build
-    script:
-      - dotnet build
+  script:
+    - dotnet build
