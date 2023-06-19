@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj": {}
+    "C:\\Projects\\Recruitment-Application\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj": {
+    "C:\\Projects\\Recruitment-Application\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj",
+        "projectUniqueName": "C:\\Projects\\Recruitment-Application\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj",
         "projectName": "Recruitment-Web-API",
-        "projectPath": "C:\\Projects\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj",
+        "projectPath": "C:\\Projects\\Recruitment-Application\\Recruitment-Web-API\\Recruitment-Web-API\\Recruitment-Web-API.csproj",
         "packagesPath": "C:\\Users\\edwin.motlokwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Recruitment-Web-API\\Recruitment-Web-API\\obj\\",
+        "outputPath": "C:\\Projects\\Recruitment-Application\\Recruitment-Web-API\\Recruitment-Web-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Expressions": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
